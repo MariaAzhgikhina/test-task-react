@@ -1,0 +1,28 @@
+@import '../../scss/vars';
+@import '../../scss/fonts';
+@import '../../scss/reset';
+@import '../../scss/libs';
+@import '../../scss/global';
+
+.footer {
+    height: 87px;
+    background-color: #2d3e50;
+    &__flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+    
+    &__text {
+        font-size: 14px;
+        font-weight: 400;
+        color: #ffffff;
+        
+    }
+    &__btn{
+        padding: 12px 16px;
+        cursor: pointer;
+        margin-left: 20px;
+    }
+}

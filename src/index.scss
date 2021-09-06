@@ -1,0 +1,52 @@
+@import './scss/vars';
+@import './scss/fonts';
+@import './scss/reset';
+@import './scss/libs';
+@import './scss/global';
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.button{
+    background-color: $main-color;
+    color: #fff;
+    padding: 14px 12px;
+    cursor: pointer;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 400;
+    color: #444444;    
+    margin-bottom: 18px;
+}
+.subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: #444444;   
+    margin-bottom: 40px; 
+}
+
+.lock {
+    overflow: hidden;
+}
+
+@media (max-width: 922px){
+    .container{
+        max-width: 920px;
+    }
+}
+@media (max-width: 768px) {
+    .container{
+        max-width: 760px;
+    }
+}
+
+@media (max-width: 480px){
+    .container{
+        max-width: 470px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
