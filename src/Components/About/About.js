@@ -1,8 +1,8 @@
 import React from "react";
 import './About.scss';
-import ava1 from '../../img/ava-1.jpg'
-import ava2 from '../../img/ava-2.jpg'
-import ava3 from '../../img/ava-3.jpg'
+import ava1 from './asserts/ava-1.jpg'
+import ava2 from './asserts/ava-2.jpg'
+import ava3 from './asserts/ava-3.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookF} from '@fortawesome/free-brands-svg-icons'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons'

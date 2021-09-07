@@ -1,6 +1,6 @@
 import React , {Component, useEffect  } from 'react';
 import './Contact.scss';
-import {init} from '../../map.js'
+import {init} from './map.js'
 
 
 const fetchScript = (url) =>{
